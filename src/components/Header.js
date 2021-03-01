@@ -1,11 +1,17 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+import Button from './Button';
 
 const Header = ({ title }) => {
+	const onClick = () => {
+		console.log("clicked add")
+	}
+
 	return (
-		<div>
+		<header className="header">
 			<h1>{title}</h1>
-		</div>
+			<Button text="+" color="steelblue" onClick={onClick} />
+		</header>
 	)
 }
 
