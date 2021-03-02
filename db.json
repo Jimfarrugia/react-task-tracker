@@ -21,14 +21,8 @@
     {
       "text": "Walk Dog",
       "day": "4th Feb at 7:00am",
-      "reminder": false,
-      "id": 5
-    },
-    {
-      "text": "test",
-      "day": "daynnight",
       "reminder": true,
-      "id": 6
+      "id": 5
     }
   ]
 }
