@@ -35,7 +35,8 @@ function App() {
 	const addTask = (task) => {
 		const id = Math.floor(Math.random() * 10000)+1;
 		const newTask = { id, ...task };
-		setTasks([...tasks, newTask]);
+		setTasks([newTask, ...tasks]);
+		setShowAddTask(false);
 	}
 
 	const deleteTask = id => {
